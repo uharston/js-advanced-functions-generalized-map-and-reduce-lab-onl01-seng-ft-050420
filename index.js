@@ -14,6 +14,6 @@ function reduce(sourceArray, callback, startValue){
       baseValue = callback(sourceArray[i], baseValue)
     }
   
-    return baseValue;
-  }
+    return baseValue
+}
 
